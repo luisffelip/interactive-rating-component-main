@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="syle.css">
+    <title>Interactive Rating</title>
+  </head>
+  <body>
+    <div id="container">
+      <img src="./images/icon-star.svg" alt="Ícone estrela" />
+      <h2>Como nos saímos?</h1>
+      <p>
+        Por favor, deixe nós sabermos como nos saímos com sua solicitação de
+        ajuda. Todo feedback é bem-vindo para nos ajudar a melhorar nossa
+        oferta!
+      </p>
+      <form action="agradecimento.html" method="GET">
+        <div class="ratings">
+          <input type="radio" id="rate1" name="nota" value="1">
+          <label for="rate1">1</label>
+
+          <input type="radio" id="rate2" name="nota" value="2">
+          <label for="rate2">2</label>
+
+          <input type="radio" id="rate3" name="nota" value="3">
+          <label for="rate3">3</label>
+
+          <input type="radio" id="rate4" name="nota" value="4">
+          <label for="rate4">4</label>
+
+          <input type="radio" id="rate5" name="nota" value="5">
+          <label for="rate5">5</label>
+        </div>
+
+        <button type="submit">ENVIAR</button>
+      </form>
+    </div>
+  </body>
+</html>
