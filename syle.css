@@ -61,23 +61,29 @@ label {
     align-items: center;
     padding: 15px;
     justify-content: space-around;
+    transition: ease .2s;
+}
+
+label:hover {
+    background-color: var(--white);
+    color: black;
 }
 
 .ratings input:checked + label {
-
+    background-color: var(--laranja);
 }
 
 #container {
     background-image: linear-gradient(to top,hsl(216, 17%, 11%), hsl(214, 18%, 17%));
     margin: auto;
     padding: 30px;
-    width: 20vw;
+    width: 300px;
     border-radius: 30px
 }
 
 button{
     background-color: var(--laranja);
-    letter-spacing: 4px;
+    letter-spacing: .2em;
     padding: 10px;
     color: var(--medium-gray);
     font-family: Arial, Helvetica, sans-serif;
@@ -89,6 +95,11 @@ button{
     border-radius: 20px;
     align-items: center;
     justify-content: center;
+    transition: ease .2s;
+}
+
+button:hover {
+    background-color: var(--white);
 }
 
 /* @media screen and (orientation: portrait) and (max-width: 768px){
